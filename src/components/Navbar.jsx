@@ -36,7 +36,7 @@ function Navbar() {
       </div>
 
       <div className={nav ? 'fixed left-0 top-0 w-[65%] h-full border-r border-r-gray-200 bg-white ease-in-out duration-500' : 'fixed left-[-100%]'}>
-        <img className='h-12 md:h-14 m-4 mt-6' src={Logo} alt="" />
+        <img className='h-10 md:h-14 m-4 mt-6' src={Logo} alt="" />
 
         <ul className='p-4'>
           <li className='p-4 text-lg font-semibold text-slate-700 hover:text-gray-400 border-b border-gray-100'>

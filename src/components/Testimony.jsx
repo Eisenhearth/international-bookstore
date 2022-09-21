@@ -6,7 +6,7 @@ const Testimony = () => {
   useEffect(() => {
     AOS.init({
       disable: function() {
-        var maxWidth = 640;
+        var maxWidth = 600;
         return window.innerWidth < maxWidth;
       },
       duration: 2000,
@@ -30,7 +30,7 @@ const Testimony = () => {
         <blockquote class="flex flex-col justify-between h-full md:p-14 p-7 bg-white rounded-lg md:drop-shadow-2xl">
         <div>
           <div className="mt-2">
-            <h5 className="text-2xl font-bold text-red-600 md:text-3xl">“Best place to feel inspired”</h5>
+            <h5 className="text-xl font-bold text-red-600 md:text-3xl">“Best place to feel inspired”</h5>
 
             <p className="mt-5 text-gray-600 italic text-justify font-semibold select-none">
               The books are well-organized (and quite overwhelming) I love how there are chairs 

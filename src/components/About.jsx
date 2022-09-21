@@ -8,7 +8,7 @@ const About = () => {
   useEffect(() => {
     AOS.init({
       disable: function() {
-        var maxWidth = 640;
+        var maxWidth = 600;
         return window.innerWidth < maxWidth;
       },
       duration: 2000,
@@ -27,7 +27,7 @@ const About = () => {
                 <p className='text-gray-700 text-base md:text-lg font-semibold'>Provider of Stories, ideas, and knowledge that will change your life forever.</p>
             </div>
             
-            <div data-aos="fade-right" data-aos-offset="600" className='mt-5 md:mt-16 grid md:grid-cols-2'>
+            <div data-aos="fade-right" data-aos-offset="600" className='mt-10 md:mt-16 grid md:grid-cols-2'>
               <div className='md:w-full max-w-6xl'>
                 <img src={location} alt="" srcset="" />
               </div>
@@ -39,7 +39,7 @@ const About = () => {
               </div>
             </div>
             
-            <div data-aos="fade-left" data-aos-offset="900" className='mt-5 md:mt-16 grid md:grid-cols-2'>
+            <div data-aos="fade-left" data-aos-offset="900" className='mt-10 md:mt-16 grid md:grid-cols-2'>
                 <div className='flex flex-col text-center md:text-end justify-center order-last md:order-first '>
                   <h3 className='text-2xl md:text-4xl font-bold text-gray-700'>Committed Delivery On Time</h3>
                   <p className='text-gray-700 font-medium text-sm md:text-xl mt-2 md:mt-5 justify-evenly'> Partners With Over Ten Courier Companies To Provide Safety

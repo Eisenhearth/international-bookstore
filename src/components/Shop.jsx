@@ -51,12 +51,12 @@ const Shop = () => {
           <Slider {...settings}>
           {dataProductsRecommendation.map((item) => (
             <a href="#">
-            <div className="card realative block border rounded-2xl px-4 py-6 md:h-[18.5rem] h-[16rem] shadow-sm">
+            <div className="card realative block border rounded-2xl px-4 md:px-6 py-4 md:h-[18.5rem] h-[14rem] shadow-sm">
             <div className="card-top flex flex-col">
               <img className="object-contain w-full h-24 md:h-36"src={item.linkImg} alt={item.title} />
-              <h1 className='md:py-2 py-4 font-extrabold text-xs md:text-sm text-red-600'>{item.title}</h1>
             </div>
-            <div className="card-bottom">
+            <div className="card-bottom pt-1">
+              <h1 className='py-3 font-extrabold text-xs md:text-base text-red-600'>{item.title}</h1>
               <h3 className='font-bold'>{item.price}</h3>
               <p className='text-xs'>{item.category}</p>
             </div>
