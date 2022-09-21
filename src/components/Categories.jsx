@@ -75,7 +75,7 @@ const Categories = () => {
               <article className='flex-shrink max-w-full w-1/2 md:w-1/2'>
                 <div className="relative hover-img max-h-40 overflow-hidden rounded-xl">
                   <a href="#">
-                    <img className="max-w-full w-full mx-auto h-max md:hover:scale-110 md:ease-in md:duration-200" src="../images/categories/kids-books.webp" alt="" srcset="" />
+                    <img className="max-w-full w-full mx-auto pb-2 md:pb-0 h-max md:hover:scale-110 md:ease-in md:duration-200" src="../images/categories/kids-books.webp" alt="" srcset="" />
                   </a>
                   <div className="absolute px-4 pt-7 pb-4 bottom-0 w-full  bg-gradient-cover">
                     <a href="#">
