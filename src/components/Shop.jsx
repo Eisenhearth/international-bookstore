@@ -46,7 +46,7 @@ const Shop = () => {
         <div className='max-w-screen-xl mx-auto py-2'>
           <h2 className='text-4xl md:ml-2 ml-4 font-bold text-red-600'>Featured Products</h2>
         </div>
-        <div className='max-w-screen-xl mx-auto p-5'>
+        <div className='max-w-screen-xl mx-auto md:p-5 p-3'>
 
           <Slider {...settings}>
           {dataProductsRecommendation.map((item) => (
