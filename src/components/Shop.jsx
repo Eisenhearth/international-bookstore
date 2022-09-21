@@ -51,7 +51,7 @@ const Shop = () => {
           <Slider {...settings}>
           {dataProductsRecommendation.map((item) => (
             <a href="#">
-            <div className="card realative block border rounded-2xl px-4 md:px-6 py-4 h-1/2 shadow-sm">
+            <div className="card relative block border rounded-2xl px-3 md:px-6 py-4 h-1/2 shadow-sm">
             <div className="card-top flex flex-col">
               <img className="object-contain w-full h-24 md:h-36"src={item.linkImg} alt={item.title} />
             </div>
