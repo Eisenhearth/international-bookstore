@@ -8,7 +8,7 @@ const About = () => {
   useEffect(() => {
     AOS.init({
       disable: function() {
-        var maxWidth = 640;
+        var maxWidth = 600;
         return window.innerWidth < maxWidth;
       },
       duration: 2000,
