@@ -41,7 +41,7 @@ const Testimony = () => {
 
         <div className='flex justify-start items-center space-x-3 mt-5'>
           <img className="w-16 rounded-full ml-0" src="../images/customer-profiles/customer1.jpg" alt="" srcset="" />
-          <div class="space-y-0.5 font-medium dark:text-white text-left">
+          <div class="space-y-0.5 font-medium text-left">
             <div><h1 className='text-lg font-bold'a>Aquafina Del Rosario</h1></div>
             <div class="text-sm font-light text-gray-700">Quezon City</div>
           </div>
@@ -64,7 +64,7 @@ const Testimony = () => {
 
         <div className='flex justify-start items-center space-x-3 mt-5'>
           <img className="w-16 rounded-full ml-0" src="../images/customer-profiles/customer2.jpg" alt="" srcset="" />
-          <div class="space-y-0.5 font-medium dark:text-white text-left">
+          <div class="space-y-0.5 font-medium text-left">
             <div><h1 className='text-xl font-bold'a>Andres Garcia</h1></div>
             <div class="text-sm font-light text-gray-700">Province of Bohol</div>
           </div>
@@ -87,7 +87,7 @@ const Testimony = () => {
 
         <div className='flex justify-start items-center space-x-3 mt-5'>
           <img className="w-16 rounded-full ml-0" src="../images/customer-profiles/customer3.jpg" alt="" srcset="" />
-          <div class="space-y-0.5 font-medium dark:text-white text-left">
+          <div class="space-y-0.5 font-medium text-left">
             <div><h1 className='text-xl font-bold'a>Jolo Chen</h1></div>
             <div class="text-sm font-light text-gray-700">Manila</div>
           </div>
