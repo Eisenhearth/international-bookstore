@@ -1,22 +1,14 @@
 export const dataProductsRecommendation = [
   {
     id: 1,
-<<<<<<< HEAD
     title: 'Trese Vol 1: Murder on Balete Drive Hard Cover',
-=======
-    title: 'Trese Vol 1: Murder on Balete Drive',
->>>>>>> b1a7f43854cbf299ce05dbd53008ecfca1df9795
     price: '₱235.00',
     category: 'Graphic Novel',
     linkImg: 'https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781950912193_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D',
   },
   {
     id: 2,
-<<<<<<< HEAD
     title: 'Crayola Colors of the World Skin Tone',
-=======
-    title: 'Crayola Colors of the World',
->>>>>>> b1a7f43854cbf299ce05dbd53008ecfca1df9795
     price: '₱324.00',
     category: 'Art Material',
     linkImg: 'https://shop.crayola.com/dw/image/v2/AALB_PRD/on/demandware.static/-/Sites-crayola-storefront/default/dw6d61ad0a/images/68-4607-0-200_Colors-Of-The-World_Colored-Pencils_24ct_F1.jpg?sw=790&sh=790&sm=fit&sfrm=jpg',
