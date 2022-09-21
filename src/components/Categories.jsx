@@ -14,7 +14,7 @@ const Categories = () => {
               <a href="#">
                 <img className="max-w-full w-full mx-auto h-auto md:h-[20.2rem] md:hover:scale-110 md:ease-in md:duration-200" src="../images/categories/best-selling.png" alt="" srcset="" />
               </a>
-              <div className="absolute px-5 pt-8 pb-5 bottom-0 w-full bg-gradient-cover">
+              <div className="absolute px-5 pt-8 pb-5 bottom-0 w-full border-none bg-gradient-cover">
                 <a href="#">
                   <h2 className="text-3xl font-bold capitalize text-white mb-3">
                     New York Times Best Seller
@@ -30,9 +30,9 @@ const Categories = () => {
               <article className='flex-shrink-2 max-w-full w-1/2 md:w-1/2'>
                 <div className="relative hover-img max-h-40 overflow-hidden rounded-xl">
                   <a href="#">
-                    <img className="max-w-full w-full mx-auto h-auto md:hover:scale-110 md:ease-in md:duration-200" src="../images/categories/school-essentials.webp" alt="" srcset="" />
+                    <img className="max-w-full w-full mx-auto h-auto pb-2 md:pb-0 md:hover:scale-110 md:ease-in md:duration-200" src="../images/categories/school-essentials.webp" alt="" srcset="" />
                   </a>
-                  <div className="absolute px-4 pt-7 pb-5 bottom-0 w-full bg-gradient-cover">
+                  <div className="absolute px-4 pt-7 pb-4 bottom-0 w-full border-none bg-gradient-cover">
                     <a href="#">
                       <h2 className="text-lg font-bold capitalize leading-tight text-white mb-1">
                         Back to School Essentials
@@ -47,7 +47,7 @@ const Categories = () => {
                   <a href="#">
                     <img className="max-w-full w-full mx-auto h-auto pb-5 md:pb-0 md:hover:scale-110 md:ease-in md:duration-200" src="../images/categories/art-materials.jpg" alt="" srcset="" />
                   </a>
-                  <div className="absolute px-4 pt-7 pb-4 bottom-0 w-full bg-gradient-cover">
+                  <div className="absolute px-4 pt-7 pb-4 bottom-0 w-full border-none bg-gradient-cover">
                     <a href="#">
                       <h2 className="text-lg font-bold capitalize leading-tight text-white mb-1">
                         Art Materials
@@ -60,9 +60,9 @@ const Categories = () => {
               <article className='flex-shrink max-w-full w-1/2 md:w-1/2'>
                 <div className="relative hover-img max-h-40 overflow-hidden rounded-xl">
                   <a href="#">
-                    <img className="max-w-full w-full mx-auto h-auto pb-5 md:pb-0 md:hover:scale-110 md:ease-in md:duration-200" src="../images/categories/office-furniture.png" alt="" srcset="" />
+                    <img className="max-w-full w-full mx-auto h-max pb-5 md:pb-0 md:hover:scale-110 md:ease-in md:duration-200" src="../images/categories/office-furniture.png" alt="" srcset="" />
                   </a>
-                  <div className="absolute px-4 pt-7 pb-4 bottom-0 w-full bg-gradient-cover">
+                  <div className="absolute px-4 pt-7 pb-4 bottom-0 w-full border-none bg-gradient-cover">
                     <a href="#">
                       <h2 className="text-lg font-bold capitalize leading-tight text-white mb-1">
                         Office Supplies
@@ -75,9 +75,9 @@ const Categories = () => {
               <article className='flex-shrink max-w-full w-1/2 md:w-1/2'>
                 <div className="relative hover-img max-h-40 overflow-hidden rounded-xl">
                   <a href="#">
-                    <img className="max-w-full w-full mx-auto h-auto md:hover:scale-110 md:ease-in md:duration-200" src="../images/categories/kids-books.jpg" alt="" srcset="" />
+                    <img className="max-w-full w-full mx-auto h-max md:hover:scale-110 md:ease-in md:duration-200" src="../images/categories/kids-books.webp" alt="" srcset="" />
                   </a>
-                  <div className="absolute px-4 pt-7 pb-4 bottom-0 w-full bg-gradient-cover">
+                  <div className="absolute px-4 pt-7 pb-4 bottom-0 w-full  bg-gradient-cover">
                     <a href="#">
                       <h2 className="text-lg font-bold capitalize leading-tight text-white mb-1">
                         Books for Young Readers

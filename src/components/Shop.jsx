@@ -34,8 +34,8 @@ const Shop = () => {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToShow: 2,
+          slidesToScroll: 2
         }
       }
     ]
@@ -51,14 +51,14 @@ const Shop = () => {
           <Slider {...settings}>
           {dataProductsRecommendation.map((item) => (
             <a href="#">
-            <div className="card realative block border rounded-2xl p-7 h-[18.5rem] shadow-sm">
+            <div className="card realative block border rounded-2xl px-4 py-6 md:h-[18.5rem] h-[16rem] shadow-sm">
             <div className="card-top flex flex-col">
-              <img className="object-contain w-full h-28 md:h-36"src={item.linkImg} alt={item.title} />
-              <h1 className='md:py-2 py-3 font-extrabold text-sm md:text-base text-red-600'>{item.title}</h1>
+              <img className="object-contain w-full h-24 md:h-36"src={item.linkImg} alt={item.title} />
+              <h1 className='md:py-2 py-4 font-extrabold text-xs md:text-sm text-red-600'>{item.title}</h1>
             </div>
             <div className="card-bottom">
               <h3 className='font-bold'>{item.price}</h3>
-              <p className='text-sm'>{item.category}</p>
+              <p className='text-xs'>{item.category}</p>
             </div>
           </div>
           </a>

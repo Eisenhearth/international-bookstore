@@ -25,7 +25,7 @@ const Testimony = () => {
           </h2>
         </div>
 
-        <div data-aos="fade" data-aos-offset="1200" className="mt-10 md:mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 sm:gap-16">
+        <div data-aos="fade" data-aos-offset="1200" className="mt-10 md:mt-16 grid grid-cols-1 gap-8 sm:grid-cols-1 lg:grid-cols-3 sm:gap-16">
 
         <blockquote class="flex flex-col justify-between h-full md:p-14 p-7 bg-white rounded-lg md:drop-shadow-2xl">
         <div>
@@ -42,7 +42,7 @@ const Testimony = () => {
         <div className='flex justify-start items-center space-x-3 mt-5'>
           <img className="w-16 rounded-full ml-0" src="../images/customer-profiles/customer1.jpg" alt="" srcset="" />
           <div class="space-y-0.5 font-medium dark:text-white text-left">
-            <div><h1 className='text-lg  font-bold'a>Aquafina Del Rosario</h1></div>
+            <div><h1 className='text-lg font-bold'a>Aquafina Del Rosario</h1></div>
             <div class="text-sm font-light text-gray-700">Quezon City</div>
           </div>
         </div>

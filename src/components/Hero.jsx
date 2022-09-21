@@ -4,11 +4,11 @@ import { HiSearch } from 'react-icons/hi';
 
 const Hero = () => {
   return (
-  <div name="home" className='w-full h-full pt-16 pb-3 md:py-0 px-6 static'>
+  <div name="home" className='w-full h-full pt-11  pb-5 md:py-0 px-6 static'>
      <div className='max-w-screen-xl mx-auto grid md:grid-cols-2'>
       <div className='flex flex-col justify-center text-center md:text-left'>
-        <h1 className='text-red-600 font-extrabold subpixel-antialiased py-0 leading-tight text-6xl md:text-[5rem] z-40'>Open your mind <br />to endless <br /> Possibilities</h1>
-        <p className='text-gray-700 font-bold text-lg md:text-2xl py-6 md:py-0 z-40'>With Over 100,000 Available Titles to Choose From, <br />Find Interesting Titles Today.</p>
+        <h1 className='text-red-600 font-extrabold subpixel-antialiased py-0 leading-tight text-5xl md:text-[5rem] z-40'>Open your mind to endless Possibilities</h1>
+        <p className='text-gray-700 font-bold text-lg md:text-2xl py-6 md:py-0 z-40'>With Over 100,000 Available Titles to Choose From, <br/>Find Interesting Titles Today.</p>
         <form className='mt-3 flex items-start py-4 md:py-0 z-40'>
           <label htmlFor="search-bar" className='sr-only'>Search</label>
           <div className='relative w-full'>
